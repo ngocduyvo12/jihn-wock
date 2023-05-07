@@ -21,7 +21,7 @@ assets folder: contains all the game assets, including character sprites and bac
     - HammerScript is for the boss and his hammer so that it can detect the collisions for the player and deals with its damage.
     - ObjectDestroyer is for destroying a game object like bullet after some time so that they don't be always in the game and make the game slow.
     ParallaxEffect is for giving the parallaxing or moving effect to the backgrounds.
-- The Prefabs folder contains all of the prefabs that are being used in the game. Prefab is actualy a game object that can be use many times or can be spawned from the script.
+- The Prefabs folder contains all of the prefabs that are being used in the game.
 
 - scenes folder: contains all the game scenes, including the game levels, and boss levels.
     - To start from beginning using the source code, you will have to open the level1 scene in the scenes folder.
