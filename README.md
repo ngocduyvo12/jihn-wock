@@ -2,6 +2,14 @@ Github: https://github.com/ngocduyvo12/jihn-wock
 
 Welcome to Jihn Wock, a pixelated 2D action game inspired by the John Wick movie series. In this game, you take control of a biker armed with a gun and navigate through beautifully designed 2D environments filled with enemies.
 
+Dependencies:
+These packages need to be installed with package manage:
+- Input System
+- Newtonsoft Json
+- TextMeshPro
+- UnityUI
+- Visual Scripting
+
 File Contents:
 
 Build folder: Built version of the game. Simple launch Jihn Wock.exe to play the game 
