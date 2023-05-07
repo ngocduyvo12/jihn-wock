@@ -7,10 +7,16 @@ File Contents:
 Build folder: Built version of the game. Simple launch Jihn Wock.exe to play the game 
 
 assets folder: contains all the game assets, including character sprites and background images.
+- Animation folder contains all of the animations for the player character, enemy characters and boss
+- scripts folder: contains all the game scripts, including the player movement script, enemy behavior script, and boss behavior script.
+    - FadeScript is for fading in and out the splash images or you can say the transitions when the game is over or when the next level is starting.
+    - HammerScript is for the boss and his hammer so that it can detect the collisions for the player and deals with its damage.
+    - ObjectDestroyer is for destroying a game object like bullet after some time so that they don't be always in the game and make the game slow.
+    ParallaxEffect is for giving the parallaxing or moving effect to the backgrounds.
+- The Prefabs folder contains all of the prefabs that are being used in the game. Prefab is actualy a game object that can be use many times or can be spawned from the script.
 
-scripts folder: contains all the game scripts, including the player movement script, enemy behavior script, and boss behavior script.
-
-scenes folder: contains all the game scenes, including the game levels, and boss levels.
+- scenes folder: contains all the game scenes, including the game levels, and boss levels.
+    - To start from beginning using the source code, you will have to open the level1 scene in the scenes folder.
 
 Design Decisions:
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectDestroyer : MonoBehaviour
 {
-    [SerializeField] private float timeToDestroy = 1.5f;
+    [SerializeField] private float timeToDestroy = 0.75f;
 
     IEnumerator Start()
     {
